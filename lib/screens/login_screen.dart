@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
-import 'package:loginandprofile/model/users.dart';
-import 'package:loginandprofile/screens/profile_screen.dart';
-import 'package:loginandprofile/services/api_handler.dart';
+import '../model/users.dart';
+import '../screens/profile_screen.dart';
+import '../services/api_handler.dart';
 import '../widgets/textfield.dart';
 
 class LoginScreen extends StatefulWidget {

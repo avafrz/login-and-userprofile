@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:loginandprofile/widgets/list_text.dart';
+import '../widgets/list_text.dart';
 import '../services/api_handler.dart';
-
 import '../model/users.dart';
 
 class ProfileScreen extends StatefulWidget {

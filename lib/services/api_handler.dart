@@ -1,7 +1,7 @@
 import 'dart:convert';
 import '../model/users.dart';
 import 'package:http/http.dart' as http;
-import 'package:dio/dio.dart';
+
 
 class ApiHandler {
   Future<List<Users>> fetchUsers() async {
