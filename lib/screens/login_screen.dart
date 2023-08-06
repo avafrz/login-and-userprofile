@@ -14,18 +14,6 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   late Future<List<Users>> futureUsers;
 
-  // @override
-  // void didChangeDependencies() {
-  //   // TODO: implement didChangeDependencies
-  //   futureUsers = ApiHandler().fetchUsers();
-  //   super.didChangeDependencies();
-  // }
-  // @override
-  // void initState() {
-  //   // TODO: implement initState
-  //   super.initState();
-  //   futureUsers = ApiHandler().fetchUsers();
-  // }
 
   @override
   Widget build(BuildContext context) {
